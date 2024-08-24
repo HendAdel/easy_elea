@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>728608293847-kerridn17de36vk0upevjuac09ahm3m4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.728608293847-kerridn17de36vk0upevjuac09ahm3m4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD-1mx9N3VWQZth5KkvwJsHEQMVuf4i7_s</string>
+	<key>GCM_SENDER_ID</key>
+	<string>728608293847</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.easyElea</string>
+	<key>PROJECT_ID</key>
+	<string>easy-elea</string>
+	<key>STORAGE_BUCKET</key>
+	<string>easy-elea.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:728608293847:ios:a0aad93ca385e891ffc192</string>
+</dict>
+</plist>
