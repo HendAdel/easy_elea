@@ -1,5 +1,7 @@
 import 'package:easy_elea/firebase_options.dart';
 import 'package:easy_elea/pages/home.dart';
+import 'package:easy_elea/pages/on_board.dart';
+import 'package:easy_elea/pages/splash.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_elea/utils/color.utility.dart';
@@ -22,6 +24,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Easy Elea',
       theme: ThemeData(
         fontFamily: 'PlusJakartaSans',
@@ -29,7 +32,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: ColorUtility.scaffoldBackground,
         useMaterial3: true,
       ),
-      home: const HomePage(),
+      home: const OnBoardPage(),
     );
   }
 }

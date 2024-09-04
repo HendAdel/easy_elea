@@ -9,4 +9,5 @@ class ColorUtility {
   // static const semiYellow = Color(0xffF6C354);
   static const main = Color(0xff477B72);
   static const meduimBlack = Color(0xff1D1B20);
+  static const lightGray = Color(0xffD1D1D6);
 }
