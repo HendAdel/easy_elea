@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
   static const String id = 'home';
-  
+
   const HomePage({super.key});
 
   @override
@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final TextTheme textTheme = Theme.of(context).textTheme;
 
     return Scaffold(
-      body: Text("Welcome to firsebase!"),
+      body: Text("Welcome to Home page!"),
     );
   }
 }

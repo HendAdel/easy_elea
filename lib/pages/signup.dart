@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Signup extends StatefulWidget {
-  static const String id = 'home';
-  
+  static const String id = 'signup';
+
   const Signup({super.key});
 
   @override

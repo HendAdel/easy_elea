@@ -1,3 +1,5 @@
+import 'package:easy_elea/pages/login.dart';
+import 'package:easy_elea/services/pref.service.dart';
 import 'package:easy_elea/utils/color.utility.dart';
 import 'package:easy_elea/utils/images.utility.dart';
 import 'package:easy_elea/widgets/on_board_pageview_container.dart';
@@ -195,6 +197,9 @@ class _OnBoardPageState extends State<OnBoardPage> {
         curve: Curves.easeInOut,
       );
       currentPageIndex = currentPageIndex + 1;
+    } else if (currentPageIndex == 3) {
+      PreferencesService.isOnBoardingSeen = true;
+      Navigator.pushReplacementNamed(context, Login.id);
     }
   }
 }

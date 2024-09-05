@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CartPage extends StatefulWidget {
-  static const String id = 'home';
-  
+  static const String id = 'cart';
+
   const CartPage({super.key});
 
   @override

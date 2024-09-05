@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Profile extends StatefulWidget {
-  static const String id = 'home';
-  
+  static const String id = 'profile';
+
   const Profile({super.key});
 
   @override
