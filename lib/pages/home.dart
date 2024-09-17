@@ -1,3 +1,4 @@
+import 'package:easy_elea/pages/login.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -15,7 +16,24 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final TextTheme textTheme = Theme.of(context).textTheme;
 
     return Scaffold(
-      body: Text("Welcome to Home page!"),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          const Center(
+            child: Text("Welcome to Home page!"),
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pushNamed(context, Login.id);
+            },
+            child: const Text('Login'),
+          )
+        ],
+      ),
     );
   }
 }
